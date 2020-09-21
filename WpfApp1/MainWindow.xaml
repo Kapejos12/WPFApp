@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600"
+        ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Imie" HorizontalAlignment="Left" Margin="176,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.022,3.619"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="176,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.342,0.352"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="176,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Data Urodzenia" HorizontalAlignment="Left" Margin="176,121,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="301,32,0,0" TextWrapping="Wrap" Text="Imie" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="301,63,0,0" TextWrapping="Wrap" Text="Nazwisko" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="301,94,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="301,125,0,0" TextWrapping="Wrap" Text="Data Urodzenia" VerticalAlignment="Top" Width="120"/>
+        <ListView HorizontalAlignment="Left" Height="268" Margin="10,205,0,0" VerticalAlignment="Top" Width="574">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Dodaj użytkownika" HorizontalAlignment="Left" Margin="259,169,0,0" VerticalAlignment="Top" Width="116"/>
+        <Button Content="Usuń z listy" HorizontalAlignment="Left" Margin="176,507,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Edytuj użytkownika" HorizontalAlignment="Left" Margin="300,507,0,0" VerticalAlignment="Top" Width="121"/>
+    </Grid>
+</Window>
